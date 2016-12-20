@@ -1,0 +1,4 @@
+languageCode = "tha-th"
+title = "My New Hugo Site"
+baseurl = "http://example.org/"
+theme = "mainroad"
