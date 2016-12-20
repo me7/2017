@@ -28,4 +28,24 @@ code {
 }
 `
 
-## how to export to github pages
+## make it become my github account page **format not work**
+* see https://pages.github.com/ for references
+1. create me7.gihub.io repo
+1. run `hugo` to generate site **public** folder
+1. `cd public`
+1. `git init`
+1. `git remote add origin git@github.com:me7/me7.github.io.git`
+1. `git add -all`
+1. `git commit -m "fisrt commit"`
+1. `git push origin master`
+
+## make it become github project page **format not work**
+1. create repo name 17
+1. run `hugo` to generate site **public** folder
+1. `cd public`
+1. `git init`
+1. `git remote add origin git@github.com:me7/17.git`
+1. `git checkout -b gh-pages`
+1. `git add -all`
+1. `git commit -m "fisrt commit"`
+1. `git push -f origin gh-pages`
