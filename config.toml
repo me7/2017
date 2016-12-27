@@ -2,3 +2,24 @@ languageCode = "tha-th"
 title = "My New Hugo Site"
 baseurl = "http://example.org/"
 theme = "mainroad"
+
+[Author]
+    name = "John Doe"
+    bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    avatar = "img/avatar.png"
+
+
+[Params]
+    subtitle = "Just another site" # Subtitle of your site
+    description = " John Doe's Personal blog about everything" # Description of your site
+    opengraph = true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent arcticles" widget 
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget

@@ -2,8 +2,8 @@
 description = ""
 title = "Bookmark"
 thumbnail = ""
-tags = []
-categories = []
+tags = ["article", "life"]
+categories = ["Medical","Web"]
 date = "2016-12-20T14:09:52+07:00"
 
 +++
